@@ -6,8 +6,8 @@ const morgan = require("morgan");
 const notFoundMiddleware = require("./middlewares/notFound");
 const errorMiddleware = require("./middlewares/error");
 
-const { sequelize } = require("./models");
-sequelize.sync({ force: true });
+// const { sequelize } = require("./models");
+// sequelize.sync({ force: true });
 
 const app = express();
 
